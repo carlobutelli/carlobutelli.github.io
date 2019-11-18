@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Site configuration
 # 1. Files excluded from Jekyll builds
 # 2. Installed Gems
@@ -133,3 +134,6 @@ sharing_links: # Appear at the bottom of single blog posts, add as desired. The 
   Twitter: "#0d94e7"
   facebook: "#3B5998"
   Email: true
+=======
+theme: jekyll-theme-minimal
+>>>>>>> 420932518cdd09bafae724bbb9aeaf478e72e601
