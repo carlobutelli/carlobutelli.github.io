@@ -2,9 +2,7 @@
   "name": "carlobutelli.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://carlobutelli.github.io",
   "dependencies": {
-    "gh-pages": "^2.1.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.2.0"
@@ -13,9 +11,6 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "predeploy": "npm run build",
-    "deploy": "npm run cleanup && gh-pages -d build -b deploy -e build",
-    "cleanup": "rm -rf node_modules/gh-pages/.cache",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
