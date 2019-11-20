@@ -1,0 +1,760 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--  <head>-->
+<!--    <meta charset="utf-8" />-->
+<!--    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1" />-->
+<!--    <meta name="theme-color" content="#000000" />-->
+<!--    <meta-->
+<!--      name="description"-->
+<!--      content="Web site created using create-react-app"-->
+<!--    />-->
+<!--    <link rel="apple-touch-icon" href="" />-->
+<!--    &lt;!&ndash;-->
+<!--      manifest.json provides metadata used when your web app is installed on a-->
+<!--      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/-->
+<!--    &ndash;&gt;-->
+<!--    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />-->
+<!--    &lt;!&ndash;-->
+<!--      Notice the use of %PUBLIC_URL% in the tags above.-->
+<!--      It will be replaced with the URL of the `public` folder during the build.-->
+<!--      Only files inside the `public` folder can be referenced from the HTML.-->
+
+<!--      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will-->
+<!--      work correctly both with client-side routing and a non-root public URL.-->
+<!--      Learn how to configure a non-root public URL by running `npm run build`.-->
+<!--    &ndash;&gt;-->
+<!--    <title>React App</title>-->
+<!--  </head>-->
+<!--  <body>-->
+<!--    <noscript>You need to enable JavaScript to run this app.</noscript>-->
+<!--    <div id="root"></div>-->
+<!--    &lt;!&ndash;-->
+<!--      This HTML file is a template.-->
+<!--      If you open it directly in the browser, you will see an empty page.-->
+
+<!--      You can add webfonts, meta tags, or analytics to this file.-->
+<!--      The build step will place the bundled scripts into the <body> tag.-->
+
+<!--      To begin the development, run `npm start` or `yarn start`.-->
+<!--      To create a production bundle, use `npm run build` or `yarn build`.-->
+<!--    &ndash;&gt;-->
+<!--  </body>-->
+<!--</html>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Carlo Butelli</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="My personal website" />
+  <meta name="keywords" content="portfolio carlo butelli cv software web application" />
+  <meta name="author" content="Carlo Butelli" />
+
+  <!-- Facebook and Twitter integration -->
+  <meta property="og:title" content=""/>
+  <meta property="og:image" content=""/>
+  <meta property="og:url" content=""/>
+  <meta property="og:site_name" content=""/>
+  <meta property="og:description" content=""/>
+  <meta name="twitter:title" content="" />
+  <meta name="twitter:image" content="" />
+  <meta name="twitter:url" content="" />
+  <meta name="twitter:card" content="" />
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+  <link rel="manifest" href="manifest.json">
+
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="css/animate.css">
+  <!-- Icomoon Icon Fonts-->
+  <link rel="stylesheet" href="css/icomoon.css">
+  <!-- Bootstrap  -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- Flexslider  -->
+  <link rel="stylesheet" href="css/flexslider.css">
+  <!-- Flaticons  -->
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <!-- Theme style  -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Modernizr JS -->
+  <script src="js/modernizr-2.6.2.min.js"></script>
+  <!-- FOR IE9 below -->
+  <!--[if lt IE 9]>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+<div id="my-page">
+  <div class="container-wrap">
+    <a href="#" class="js-my-nav-toggle my-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+    <aside id="my-aside" role="complementary" class="border js-fullheight">
+      <div class="text-center">
+        <div class="author-img" style="background-image: url(images/profile.jpg);"></div>
+        <h1 id="my-logo"><a href="index.html">Carlo Butelli</a></h1>
+        <span class="position"><a href="#">Software Engineer</a> in Amsterdam</span>
+      </div>
+      <nav id="my-main-menu" role="navigation" class="navbar">
+        <div id="navbar" class="collapse">
+          <ul>
+            <li class="active"><a href="#" data-nav-section="home">Home</a></li>
+            <li><a href="#" data-nav-section="about">About Me</a></li>
+            <li><a href="#" data-nav-section="services">Services</a></li>
+            <li><a href="#" data-nav-section="skills">Skills</a></li>
+            <li><a href="#" data-nav-section="education">Education</a></li>
+            <li><a href="#" data-nav-section="experience">Experience</a></li>
+<!--            <li><a href="#" data-nav-section="blog">My Blog</a></li>-->
+            <li><a href="#" data-nav-section="contact">Contacts</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="my-footer">
+        <p>
+          <small>Copyright &copy; <script>document.write(new Date().getFullYear());</script> | All rights reserved.</span>
+            Inspired by <a href="https://my.com" target="_blank" rel="noopener noreferrer">colorlib</a>.
+          </small>
+        </p>
+        <ul>
+          <li><a href="https://www.facebook.com/carlo.butelli"><i class="icon-facebook2 icon-circle-background"></i></a></li>
+          <li><a href="https://twitter.com/e9512071d0c44f1"><i class="icon-twitter2 icon-circle-background"></i></a></li>
+          <li><a href="https://www.instagram.com/carlobutelli/"><i class="icon-instagram icon-circle-background"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/carlo-butelli-281a29b7/"><i class="icon-linkedin2 icon-circle-background"></i></a></li>
+          <li><a href="https://github.com/butellicarlo"><i class="icon-github icon-circle-background"></i></a></li>
+        </ul>
+      </div>
+
+    </aside>
+
+    <div id="my-main">
+      <section id="my-hero" class="js-fullheight" data-section="home">
+        <div class="flexslider js-fullheight">
+          <ul class="slides">
+            <li style="background-image: url(images/img_bg_1.jpg);">
+              <div class="overlay"></div>
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+                    <div class="slider-text-inner js-fullheight">
+                      <div class="desc">
+                        <h1>Hi! <br>I'm Carlo Butelli</h1>
+                        <p><a class="btn btn-primary btn-learn" href="https://drive.google.com/open?id=1m4dfF6BgNDAHjV8RVcXIKlEf-kXAV-dK" target="_blank" rel="noopener noreferrer">View my CV <i class="icon-briefcase3"></i></a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li style="background-image: url(images/img_bg_2.jpg);">
+              <div class="overlay"></div>
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+                    <div class="slider-text-inner">
+                      <div class="desc">
+                        <h1>I am <br>a Software Engineer</h1>
+                        <p><a class="btn btn-primary btn-learn" href="https://drive.google.com/uc?export=download&id=1m4dfF6BgNDAHjV8RVcXIKlEf-kXAV-dK" target="_blank" rel="noopener noreferrer">Download my CV <i class="icon-download4"></i></a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="my-about" data-section="about">
+        <div class="my-narrow-content">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                <div class="col-md-12">
+                  <div class="about-desc">
+                    <span class="heading-meta">About Me</span>
+                    <h2 class="my-heading">Who Am I?</h2>
+                    <p>
+                      <strong>Hi, I'm Carlo Butelli</strong>
+                      an Italian passionate software engineer currently settled down in the beautiful Amsterdam (also known as the Venice of the North).
+                      Along the years I gained proficiency on software and web development building several Desktop and web applications
+                      by using different programming languages. I find myself an enthusiastic and self-motivated person, reliable and responsible who loves
+                      improving himself and learning continuously.
+                    </p>
+                    <p>Other things about me</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+                  <div class="services color-1">
+                    <span class="icon2"><i class="icon-cloud-storage"></i></span>
+                    <h3>Cloud Computing</h3>
+                  </div>
+                </div>
+                <div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
+                  <div class="services color-3">
+                    <span class="icon2"><i class="icon-code"></i></span>
+                    <h3>Software Development</h3>
+                  </div>
+                </div>
+                <div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
+                  <div class="services color-4">
+                    <span class="icon2"><i class="icon-layers2"></i></span>
+                    <h3>Microservices Architecture</h3>
+                  </div>
+                </div>
+                <div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
+                  <div class="services color-5">
+                    <span class="icon2"><i class="icon-html-five"></i></span>
+                    <h3>Web Applications</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="my-services" data-section="services">
+        <div class="my-narrow-content">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+              <span class="heading-meta">What I do?</span>
+              <h2 class="my-heading">Here are some of my expertise</h2>
+            </div>
+          </div>
+          <div class="row row-pt-md">
+            <div class="col-md-4 text-center animate-box">
+              <div class="services color-6">
+								<span class="icon">
+									<i class="icon-lightbulb"></i>
+								</span>
+                <div class="desc">
+                  <h3>Innovative Ideas</h3>
+                  <p>Jump out from mainstream patterns to look at things from another perspective and with different eyes</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 text-center animate-box">
+              <div class="services color-2">
+								<span class="icon">
+									<i class="icon-data"></i>
+								</span>
+                <div class="desc">
+                  <h3>Databases</h3>
+                  <p>Gained experience with SQL and NoSQL DBs. Choose the best storage to match the business needs</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 text-center animate-box">
+              <div class="services color-5">
+								<span class="icon">
+									<i class="icon-html-five"></i>
+								</span>
+                <div class="desc">
+                  <h3>Web Applications</h3>
+                  <p>Highly experienced in creation of new technologies by choosing the right stack for the right purpose</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 text-center animate-box">
+              <div class="services color-4">
+								<span class="icon">
+									<i class="icon-device-laptop"></i>
+								</span>
+                <div class="desc">
+                  <h3>Problem solving and logical thinking</h3>
+                  <p>Facing every project and task with logic and a get-it-done mindset thanks to the CS background</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 text-center animate-box">
+              <div class="services color-1">
+								<span class="icon">
+									<i class="icon-cloud-storage"></i>
+								</span>
+                <div class="desc">
+                  <h3>Cloud computing</h3>
+                  <p>
+                    Delivering services over the internet will help your business to lower the costs,
+                    your infrastructure to run more efficiently and scale as your needs change
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 text-center animate-box">
+              <div class="services color-3">
+								<span class="icon">
+									<i class="icon-code"></i>
+								</span>
+                <div class="desc">
+                  <h3>Software Development</h3>
+                  <p>Development of Desktop and client/service applications with the most cutting edge technologies</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div id="my-counter" class="my-counters" style="background-image: url(images/cover_bg_1.jpg);" data-stellar-background-ratio="0.5">
+        <div class="overlay"></div>
+        <div class="my-narrow-content">
+          <div class="row">
+          </div>
+          <div class="row">
+            <div class="col-md-3 text-center animate-box">
+              <span class="my-counter js-counter" data-from="0" data-to="460" data-speed="5000" data-refresh-interval="50"></span>
+              <span class="my-counter-label">Cups of coffee</span>
+            </div>
+            <div class="col-md-3 text-center animate-box">
+              <span class="my-counter js-counter" data-from="0" data-to="35" data-speed="5000" data-refresh-interval="50"></span>
+              <span class="my-counter-label">Years old</span>
+            </div>
+            <div class="col-md-3 text-center animate-box">
+              <span class="my-counter js-counter" data-from="0" data-to="1521" data-speed="5000" data-refresh-interval="50"></span>
+              <span class="my-counter-label">Max traveled Kilometers</span>
+            </div>
+            <div class="col-md-3 text-center animate-box">
+              <span class="my-counter js-counter" data-from="0" data-to="15" data-speed="5000" data-refresh-interval="50"></span>
+              <span class="my-counter-label">Successful Projects</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="my-skills" data-section="skills">
+        <div class="my-narrow-content">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+              <span class="heading-meta">My Specialty</span>
+              <h2 class="my-heading animate-box">My Skills</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+              <p>
+                All the following are some of the technologies (the main ones) I have had the chance to work with.
+                Proficiency gained along the years while designing and building high valuable software both in team and as
+                individual. However, I consider the following like "buzzwords" since not all the technologies have
+                been used neither at the same time nor for the same amount of time.
+              </p>
+            </div>
+            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+              <div class="progress-wrap">
+                <h3>Java</h3>
+                <div class="progress">
+                  <div class="progress-bar color-1" role="progressbar" aria-valuenow="75"
+                       aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                    <span>85%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+              <div class="progress-wrap">
+                <h3>Python</h3>
+                <div class="progress">
+                  <div class="progress-bar color-2" role="progressbar" aria-valuenow="60"
+                       aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                    <span>90%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+              <div class="progress-wrap">
+                <h3>HTML5</h3>
+                <div class="progress">
+                  <div class="progress-bar color-3" role="progressbar" aria-valuenow="85"
+                       aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                    <span>70%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+              <div class="progress-wrap">
+                <h3>CSS3</h3>
+                <div class="progress">
+                  <div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
+                       aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                    <span>60%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+              <div class="progress-wrap">
+                <h3>Angular4</h3>
+                <div class="progress">
+                  <div class="progress-bar color-6" role="progressbar" aria-valuenow="90"
+                       aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                    <span>60%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+              <div class="progress-wrap">
+                <h3>React.js</h3>
+                <div class="progress">
+                  <div class="progress-bar color-5" role="progressbar" aria-valuenow="80"
+                       aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                    <span>40%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+              <div class="progress-wrap">
+                <h3>SQL Databases</h3>
+                <div class="progress">
+                  <div class="progress-bar color-1" role="progressbar" aria-valuenow="70"
+                       aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                    <span>75%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+              <div class="progress-wrap">
+                <h3>NoSQL Databases</h3>
+                <div class="progress">
+                  <div class="progress-bar color-2" role="progressbar" aria-valuenow="70"
+                       aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                    <span>75%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+              <div class="progress-wrap">
+                <h3>DevOps</h3>
+                <div class="progress">
+                  <div class="progress-bar color-3" role="progressbar" aria-valuenow="70"
+                       aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                    <span>60%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+              <div class="progress-wrap">
+                <h3>Docker</h3>
+                <div class="progress">
+                  <div class="progress-bar color-4" role="progressbar" aria-valuenow="70"
+                       aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                    <span>75%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+              <div class="progress-wrap">
+                <h3>Amazon Web Services</h3>
+                <div class="progress">
+                  <div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
+                       aria-valuemin="0" aria-valuemax="100" style="width:65%">
+                    <span>75%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+              <div class="progress-wrap">
+                <h3>Google Cloud</h3>
+                <div class="progress">
+                  <div class="progress-bar color-6" role="progressbar" aria-valuenow="70"
+                       aria-valuemin="0" aria-valuemax="100" style="width:55%">
+                    <span>75%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="my-education" data-section="education">
+        <div class="my-narrow-content">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+              <span class="heading-meta">Education</span>
+              <h2 class="my-heading animate-box">Education</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+              <div class="fancy-collapse-panel">
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                      <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Master in Computer Science
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                      <div class="panel-body">
+                        <p>Track: <strong>Internet and Web Technology</strong> (joint degree programme of the <strong>University of Amsterdam</strong> and <strong>VU Amsterdam</strong>)</p>
+                        <p>Thesis: "Performance analysis of a database layer’s migration from RDBMS to NoSQL in AWS" </p>
+                        <p>Some of the main classes were: </p>
+                        <ul>
+                          <li>Cloud Computing and Web Services Development</li>
+                          <li>Internet Programming</li>
+                          <li>Parallel Programming</li>
+                          <li>Distributed Systems</li>
+                          <li>Distributed Algorithms</li>
+                          <li>Software Architecture</li>
+                          <li>Concurrency and Multithreading</li>
+                          <li>Performance of Networked Systems</li>
+                          <li>Evolutionary Computing</li>
+                          <li>Internet and Web Applications</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                      <h4 class="panel-title">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Bachelor Degree of Computer Science
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                      <div class="panel-body">
+                        <p>Thesis: "Discrete tomography: reconstruction of binary images through LpSolve and linear programming"</p>
+                        <p>Some of the main classes were: </p>
+                        <ul>
+                          <li>C Programming</li>
+                          <li>Java Programming</li>
+                          <li>Operative Systems</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                      <h4 class="panel-title">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Professional qualification of Security Manager of Computer Networks and Data Protection
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                      <div class="panel-body">
+                        <p>
+                          Intern position as System Administrator responsible for the maintenance of the computers and
+                          network. Implementation of an internal management system.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingFive">
+                      <h4 class="panel-title">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">High School Secondary Education
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                      <div class="panel-body">
+                        <p></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="my-experience" data-section="experience">
+        <div class="my-narrow-content">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+              <span class="heading-meta">Experience</span>
+              <h2 class="my-heading animate-box">Work Experience</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="timeline-centered">
+                <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                  <div class="timeline-entry-inner">
+
+                    <div class="timeline-icon color-1">
+                      <i class="icon-pen2"></i>
+                    </div>
+
+                    <div class="timeline-label">
+                      <h2><a href="#">Software Engineer at Nxchange BV, Amsterdam</a><p><span>Jan 2019 - Present</span></p></h2>
+                      <p></p>
+                    </div>
+                  </div>
+                </article>
+
+
+                <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+                  <div class="timeline-entry-inner">
+                    <div class="timeline-icon color-2">
+                      <i class="icon-pen2"></i>
+                    </div>
+                    <div class="timeline-label">
+                      <h2><a href="#">Software Engineer at Virtuagym, Amsterdam</a><p><span>June 2016 - Dec 2018</span></p></h2>
+                      <p>Description</p>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                  <div class="timeline-entry-inner">
+                    <div class="timeline-icon color-3">
+                      <i class="icon-pen2"></i>
+                    </div>
+                    <div class="timeline-label">
+                      <h2><a href="#">Software Developer at TomTom, Amsterdam</a><p><span>June 2015 - Oct 2015</span></p></h2>
+                      <p>Part of the Automated Data Processing Testing team I was in charge of building a software able
+                        to automate data processing and make auto analysis during the TomTom's app test sessions.
+                        The software was interacting with the application deployed on an Android device showing detailed
+                        information regarding runtime execution, errors, logs and giving the chance to capture real time screenshots
+                        and videos.
+                      </p>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
+                  <div class="timeline-entry-inner">
+                    <div class="timeline-icon color-4">
+                      <i class="icon-pen2"></i>
+                    </div>
+                    <div class="timeline-label">
+                      <h2><a href="#">Web Developer at Xaround srl, Arcidosso (GR), Italy</a><p><span>Mar 2013 - Oct 2013</span></p></h2>
+                      <p>Description</p>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                  <div class="timeline-entry-inner">
+                    <div class="timeline-icon color-5">
+                      <i class="icon-pen2"></i>
+                    </div>
+                    <div class="timeline-label">
+                      <h2><a href="#">Freelancer</a><p><span>Jan 2009 — June 2013</span></p></h2>
+                      <p>Freelancer software and web developer </p>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+                  <div class="timeline-entry-inner">
+                    <div class="timeline-icon color-none">
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="my-contact" data-section="contact">
+        <div class="my-narrow-content">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+              <span class="heading-meta">Get in Touch</span>
+              <h2 class="my-heading">Contact</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-5">
+              <div class="my-feature my-feature-sm animate-box" data-animate-effect="fadeInLeft">
+                <div class="my-icon">
+                  <i class="icon-globe-outline"></i>
+                </div>
+                <div class="my-text">
+                  <p><a href="#">dev.butelli@gmail.com</a></p>
+                </div>
+              </div>
+
+              <div class="my-feature my-feature-sm animate-box" data-animate-effect="fadeInLeft">
+                <div class="my-icon">
+                  <i class="icon-phone"></i>
+                </div>
+                <div class="my-text">
+                  <p><a href="tel://">+31 6 510 786 24</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-7 col-md-push-1">
+              <div class="row">
+                <div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
+                  <form action="">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                      <textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-group">
+                      <input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
+                    </div>
+                  </form>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div><!-- end:my-main -->
+  </div><!-- end:container-wrap -->
+</div><!-- end:my-page -->
+
+<!-- jQuery -->
+<script src="js/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="js/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="js/jquery.waypoints.min.js"></script>
+<!-- Flexslider -->
+<script src="js/jquery.flexslider-min.js"></script>
+<!-- Owl carousel -->
+<script src="js/owl.carousel.min.js"></script>
+<!-- Counters -->
+<script src="js/jquery.countTo.js"></script>
+
+
+<!-- MAIN JS -->
+<script src="js/main.js"></script>
+
+</body>
+</html>
