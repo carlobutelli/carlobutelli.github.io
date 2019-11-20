@@ -1,2 +1,2 @@
 # My personal page
-check it out at ```https://carlobutelli.github.io```
+open it up at this [page](https://carlobutelli.github.io)
