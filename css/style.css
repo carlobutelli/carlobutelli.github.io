@@ -16,10 +16,93 @@ body {
   font-weight: 400;
   font-size: 15px;
   line-height: 1.8;
-  color: rgba(0, 0, 0, 0.7); }
-  @media screen and (max-width: 992px) {
-    body {
-      font-size: 16px; } }
+  color: rgba(0, 0, 0, 0.7); 
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    font-size: 16px; 
+  } 
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #eee;
+    background: #272829;
+  }
+
+  body a {
+    color: #809fff;
+  }
+  
+  .container-wrap #my-aside #my-main-menu ul li a {
+    color: #999999;
+  }
+
+  .container-wrap #my-aside .my-footer p small {
+    color: #999999;
+  }
+
+  .icon-circle-background {
+    background: #272829;
+  }
+
+  h3.services, h2.my-heading, .progress-wrap h3, .desc h3, .services h3 {
+    color: #999999
+  }
+  
+  .panel-body {
+    color: #999999
+  }
+
+  span.heading-meta {
+    color: #999989;
+  }
+
+  div.panel{
+    background: #272129;
+  }
+
+  .panel .panel-heading .panel-title a.collapsed {
+    background: #272129;
+    color: #fff;
+  }
+
+  .panel .panel-heading .panel-title a {
+    background: #4054b2;
+  }
+
+  .timeline-label p {
+    color: #000;
+  }
+
+  .panel-heading {
+    background-color: #D2D1D2;
+  }
+
+  aside#my-aside {
+    background: #272129;
+  }
+
+  .col-md-3 {
+    background: #272129;
+  }
+
+  .timeline-centered .timeline-entry .timeline-entry-inner div.timeline-label {
+    background-color: #272129;
+    border: 1px solid #e6e6e6 !important;
+  }
+
+  .timeline-centered .timeline-entry .timeline-entry-inner div.timeline-label p {
+    color: #fff;
+  }
+
+  .timeline-centered .timeline-entry .timeline-entry-inner div.timeline-label h2, 
+  .timeline-centered .timeline-entry .timeline-entry-inner div.timeline-label h2 a {
+    color: #999999;
+  }
+
+}
 
 a {
   color: #2c98f0;
@@ -218,6 +301,7 @@ figure {
 .container-wrap {
   max-width: 1170px;
   margin: 0 auto; }
+  
 
 #my-main {
   width: calc(100% - 300px);
